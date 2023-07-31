@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url(img.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#cronometro {
+    font-size: 24px;
+    background-color: #f1f1f129;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cuadro {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #342f2f64;
+    box-shadow: 0 0 10px rgba(243, 77, 77, 0.665);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#opcines {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    background-image: url(Botones.jpg);
+    color: #000000;
+    padding: 15px;
+    border: rgba(227, 87, 87, 0.599);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
